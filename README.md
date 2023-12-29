@@ -9,7 +9,7 @@
 * `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 * `<h1>` element defines a large heading
     * HTML headings are defined with the `<h1>` to `<h6>` tags. [Hearders in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
-* `<p>` element defines a paragraph
+* `<p>` element defines a paragraph.[paragraph in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
   
 * `<a>` HTML links are defined with the `<a>` tag
     * The `href` attribute specifies the URL of the page the link goes to
