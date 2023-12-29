@@ -12,5 +12,6 @@
 * `<p>` element defines a paragraph
   
 * `<a>` HTML links are defined with the `<a>` tag
+    * The `href` attribute specifies the URL of the page the link goes to
 * `<img>` HTML images are defined with the <img> tag.
     - The source file (src), alternative text (alt), width, and height are provided as attributes
