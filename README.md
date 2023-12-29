@@ -10,6 +10,7 @@
 * <h1> element defines a large heading
     HTML headings are defined with the <h1> to <h6> tags. [a link](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
 * <p> element defines a paragraph
+    ```html 
 
 ### Heading in HTML 
 HTML headings are defined with the ``` html <h1> to <h6> ``` tags. [a link](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.
