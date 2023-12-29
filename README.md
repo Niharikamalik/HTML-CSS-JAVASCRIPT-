@@ -15,7 +15,7 @@
     * The `href` attribute specifies the URL of the page the link goes to.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
 * `<img>` HTML images are defined with the <img> tag.
     - The source file (src), alternative text (alt), width, and height are provided as attributes.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
-### HTML Formatting Elements
+### HTML Formatting Elements [syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
 Formatting elements were designed to display special types of text:
 * `<b>` - Bold text
 * `<strong>` - Important text
@@ -35,3 +35,11 @@ Formatting elements were designed to display special types of text:
 * `<blockquote>`Defines a section that is quoted from another source
 * `<cite>`Defines the title of a work
 * `<q>`Defines a short inline quotation
+### HTML list [Example syntax ](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/list.html)
+*`<ul>`	Defines an unordered list
+*`<ol>`	Defines an ordered list
+*`<li>`	Defines a list item
+*`<dl>`	Defines a description list
+*`<dt>`	Defines a term in a description list
+*`<dd>`	Describes the term in a description list
+    
