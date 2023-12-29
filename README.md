@@ -12,6 +12,6 @@
 * `<p>` element defines a paragraph.[paragraph in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
   
 * `<a>` HTML links are defined with the `<a>` tag
-    * The `href` attribute specifies the URL of the page the link goes to
+    * The `href` attribute specifies the URL of the page the link goes to.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
 * `<img>` HTML images are defined with the <img> tag.
-    - The source file (src), alternative text (alt), width, and height are provided as attributes
+    - The source file (src), alternative text (alt), width, and height are provided as attributes.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
