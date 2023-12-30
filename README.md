@@ -8,14 +8,14 @@
 * `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
 * `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 * `<h1>` element defines a large heading
-    * HTML headings are defined with the `<h1>` to `<h6>` tags. [Hearders in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
-* `<p>` element defines a paragraph.[paragraph in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HeadingPara.html)
+    * HTML headings are defined with the `<h1>` to `<h6>` tags. [Hearders in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/HeadingPara.html)
+* `<p>` element defines a paragraph.[paragraph in html](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/HeadingPara.html)
   
 * `<a>` HTML links are defined with the `<a>` tag
-    * The `href` attribute specifies the URL of the page the link goes to.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
+    * The `href` attribute specifies the URL of the page the link goes to.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/links.html)
 * `<img>` HTML images are defined with the <img> tag.
-    - The source file (src), alternative text (alt), width, and height are provided as attributes.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
-### HTML Formatting Elements [syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/links.html)
+    - The source file (src), alternative text (alt), width, and height are provided as attributes.[syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/links.html)
+### HTML Formatting Elements [syntax](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/links.html)
 Formatting elements were designed to display special types of text:
 * `<b>` - Bold text
 * `<strong>` - Important text
@@ -35,7 +35,7 @@ Formatting elements were designed to display special types of text:
 * `<blockquote>`Defines a section that is quoted from another source
 * `<cite>`Defines the title of a work
 * `<q>`Defines a short inline quotation
-### HTML list [Example syntax ](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/list.html)
+### HTML list [Example syntax ](https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/blob/main/HTML/list.html)
 *`<ul>`	Defines an unordered list
 *`<ol>`	Defines an ordered list
 *`<li>`	Defines a list item
@@ -45,9 +45,9 @@ Formatting elements were designed to display special types of text:
 ### Block-level Elements
     A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
     A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
-    Two commonly used block elements are: <p> and <div>.
-    The <p> element defines a paragraph in an HTML document.
-    The <div> element defines a division or a section in an HTML document.
+    Two commonly used block elements are: `<p>` and `<div>`.
+    The `<p>` element defines a paragraph in an HTML document.
+    The `<div>` element defines a division or a section in an HTML document.
         `<address><article><aside><blockquote>
         <canvas><dd><div><dl><dt><fieldset>
         <figcaption><figure><footer><form>
