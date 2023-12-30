@@ -48,12 +48,12 @@ Formatting elements were designed to display special types of text:
 * Two commonly used block elements are: `<p>` and `<div>`.
 * The `<p>` element defines a paragraph in an HTML document.
 * The `<div>` element defines a division or a section in an HTML document.
-`<address>``<article>``<aside>``<blockquote>`
-`<canvas>``<dd>``<div>``<dl>``<dt>``<fieldset>`
-`<figcaption>``<figure>``<footer>``<form>`
-`<h1>`-`<h6>``<header>``<hr>``<li>``<main>``<nav>`
-`<noscript>``<ol>``<p>``<pre>``<section>``<table>`
-`<tfoot>``<ul>``<video>``</video>`
+`<address> <article> <aside> <blockquote>
+<canvas> <dd> <div> <dl> <dt> <fieldset>
+<figcaption> <figure> <footer> <form>
+<h1> - <h6> <header> <hr> <li> <main> <nav>
+<noscript> <ol> <p> <pre> <section> <table>
+<tfoot> <ul> <video> </video>`
 
 ### Inline Elements
 * An inline element does not start on a new line.
