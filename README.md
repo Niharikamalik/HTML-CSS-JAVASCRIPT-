@@ -63,3 +63,11 @@ Formatting elements were designed to display special types of text:
         <code><dfn><em><i><img><input>
         <kbd><label><map><object>
         <output><q><samp> `
+### `<div>` Element
+    The `<div>` element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.
+    The <div> element is often used to group sections of a web page together.
+### id Attribute
+        The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+        The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+        The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+        In the following example we have an `<h1>` element that points to the id name "myHeader". This` <h1> `element will be styled according to the #myHeader style definition in the head section
