@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<!-- A sequence of question mark operators ? can return a value that depends on more than one condition. -->
+<Script>
+    let age1 = prompt("enter your age",20)
+    if (age1 < 3) {
+    message = 'Hi, baby!';
+  } else if (age1 < 18) {
+    message = 'Hello!';
+  } else if (age1< 100) {
+    message = 'Greetings!';
+  } else {
+    message = 'What an unusual age!';
+  }
+  alert(message)
+
+    let age = prompt('age?', 18);
+    let message1 = (age < 3) ? 'Hi, baby!' :
+    (age < 18) ? 'Hello!' :
+    (age < 100) ? 'Greetings!' :
+    'What an unusual age!';
+    alert( message1 );
+</Script>
+</html>
