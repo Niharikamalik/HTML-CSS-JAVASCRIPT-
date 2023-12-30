@@ -1,6 +1,6 @@
 # Development 
 ## HTML 
-### HTML basics (https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/tree/main/HTML)
+### HTML basics [Files] (https://github.com/Niharikamalik/HTML-CSS-JAVASCRIPT-/tree/main/HTML)
 
 * `<!DOCTYPE HTML>` : define documnet type for browser 
 * `<html>` element is the root element of an HTML page
