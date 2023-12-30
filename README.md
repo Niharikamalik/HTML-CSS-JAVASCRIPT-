@@ -43,31 +43,31 @@ Formatting elements were designed to display special types of text:
 *`<dt>`	Defines a term in a description list
 *`<dd>`	Describes the term in a description list
 ### Block-level Elements
-    * A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
-    * A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
-    * Two commonly used block elements are: `<p>` and `<div>`.
-    * The `<p>` element defines a paragraph in an HTML document.
-    * The `<div>` element defines a division or a section in an HTML document.
-        `<address><article><aside><blockquote>
-        <canvas><dd><div><dl><dt><fieldset>
-        <figcaption><figure><footer><form>
-        <h1>-<h6><header><hr><li><main><nav>
-        <noscript><ol><p><pre><section><table>
-        <tfoot><ul><video></video>`
+* A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+* A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+* Two commonly used block elements are: `<p>` and `<div>`.
+* The `<p>` element defines a paragraph in an HTML document.
+* The `<div>` element defines a division or a section in an HTML document.
+`<address>``<article>``<aside>``<blockquote>`
+`<canvas>``<dd>``<div>``<dl>``<dt>``<fieldset>`
+`<figcaption>``<figure>``<footer>``<form>`
+`<h1>`-`<h6>``<header>``<hr>``<li>``<main>``<nav>`
+`<noscript>``<ol>``<p>``<pre>``<section>``<table>`
+`<tfoot>``<ul>``<video>``</video>`
 
 ### Inline Elements
-    An inline element does not start on a new line.
-    An inline element only takes up as much width as necessary.
-    This is a <span> element inside a paragraph.
-        `<a><abbr><b><bdo><br><button><cite>
-        <code><dfn><em><i><img><input>
-        <kbd><label><map><object>
-        <output><q><samp> `
+* An inline element does not start on a new line.
+* An inline element only takes up as much width as necessary.
+* This is a `<span>` element inside a paragraph.
+        `<a>``<abbr>``<b>``<bdo>``<br>``<button>``<cite>`
+        `<code>``<dfn>``<em>``<i>``<img>``<input>`
+        `<kbd>``<label>``<map>``<object>`
+        `<output>``<q>``<samp> `
 ### `<div>` Element
-    The `<div>` element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.
-    The <div> element is often used to group sections of a web page together.
+* The `<div>` element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.
+* The `<div>` element is often used to group sections of a web page together.
 ### id Attribute
-        The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
-        The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
-        The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
-        In the following example we have an `<h1>` element that points to the id name "myHeader". This` <h1> `element will be styled according to the #myHeader style definition in the head section
+* The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+* The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+* The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+* In the following example we have an `<h1>` element that points to the id name "myHeader". This` <h1> `element will be styled according to the #myHeader style definition in the head section
