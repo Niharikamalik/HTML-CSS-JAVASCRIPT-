@@ -59,10 +59,10 @@ Formatting elements were designed to display special types of text:
 * An inline element does not start on a new line.
 * An inline element only takes up as much width as necessary.
 * This is a `<span>` element inside a paragraph.
-        `<a>``<abbr>``<b>``<bdo>``<br>``<button>``<cite>`
-        `<code>``<dfn>``<em>``<i>``<img>``<input>`
-        `<kbd>``<label>``<map>``<object>`
-        `<output>``<q>``<samp> `
+* `<a>` `<abbr>` `<b>` `<bdo>` `<br>` `<button>`  `<cite>`
+        `<code>` `<dfn>` `<em>` `<i>` `<img>` `<input>`
+        `<kbd>` `<label>` `<map>` `<object>`
+        `<output>` `<q>` `<samp> `
 ### `<div>` Element
 * The `<div>` element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.
 * The `<div>` element is often used to group sections of a web page together.
