@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // three way to wirte string in javascript 
+    let user = "abcdsff";
+    let user1 = 'ab ab cd';
+    let user2 = `abcde`;
+    console.log(typeof user +" "+ typeof user1 + " "+typeof user2);
+    // template leterials 
+    // 1 backtics syntax (` `)
+    // 2 quotes inside string 
+    console.log('i\'m javascript');
+    // 3 multiline strings using backtics
+    //4 interpolation 
+    console.log(`use name is ${user}`);
+    console.log(user.length);
+    console.log(user.toUpperCase());
+    console.log(user.toLowerCase());
+    console.log(user.slice(3,7));// print dsff
+    console.log(user.slice(3));
+    console.log(user.replace("abc","uvx"));
+    // accesssing character
+    console.log(user[2])
+    console.log(user.at(4));
+    console.log(user.indexOf("f"));
+    console.log(user.includes("ab"));
+    console.log(user.startsWith("ab"));
+    console.log(user.endsWith("ab"));
+    console.log(user.substring(2,4));//substring(start, end)
+    console.log(user.substr(2,3)); //substr(start, length)
+    for (let i = 65; i <= 75; i++) {
+        console.log(String.fromCodePoint(i));
+    }
+    let name = "   meena   ";
+    console.log(name.trim())
+    console.log(name.repeat(2))
+// truncate the text
+    
+    function truncate(str, maxlength) {
+        console.log((str.length > maxlength) ?
+          str.slice(0, maxlength - 1) + '…' : str);
+      }
+      truncate("What I'd like to tell on this topic is:", 20)
+      // extract money 
+      function extractCurrencyValue(str) {
+        return +str.slice(1);
+      }
+      console.log( extractCurrencyValue('$120') === 120 ); // true
+</script>
+
+</html>

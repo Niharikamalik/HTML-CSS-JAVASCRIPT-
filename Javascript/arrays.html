@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //declaration 
+    let arr = [12,34,2,33,56,false];
+    
+    console.log(arr);
+    // access elemnet by index 
+    console.log(arr[0]);
+    // replace an element 
+    arr[2]= 13;
+    console.log(arr[2])
+    // add new element 
+    console.log(arr.length)
+    arr[6] = 98
+    console.log(arr);
+    // get last element 
+    console.log(arr.at(-1))
+    //.................Queue......................//
+    // A queue is one of the most common uses of an array ......................
+    // method used push and shift 
+    // push adds an element to the end.
+    //shift get an element from the beginning, advancing the queue, so that the 2nd element becomes the 1st.
+    arr.push('jiya');
+    console.log(arr);
+    arr.shift()
+    console.log(arr)
+    //...................Stack....................//
+    //A stack is usually illustrated as a pack of cards: new cards are added to the top or taken from the top
+    //push adds an element to the end.
+    //pop takes an element from the end.
+    arr.pop();
+    console.log(arr);
+    //Add the element to the beginning of the array
+    arr.unshift(12);
+    console.log(arr)
+
+    //////////////
+    let fruits = ["Banana"]
+    let a = fruits;
+    fruits.push("apple");
+    console.log(a);
+    fruits[1]=1;
+    console.log(a);
+    a[10]=3;
+    // add element as property
+    a.age = 4
+    console.log(a);
+    console.log(a.age);
+/// For..of
+//doesn’t give access to the number of the current element, just its value,
+for(let num of arr){
+    console.log(num)
+}
+// for in 
+
+for(let num in arr){
+    console.log(arr[num])
+}
+
+// There is one more syntax to create an array:
+let ar = new Array("Apple", "Pear", "etc");
+//
+let arr1 = new Array(2); // will it create an array of [2] ?
+// toString
+let b = ar.toString()
+console.log(b)
+
+// Multidimensional Arrays
+
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+console.log( matrix[0][1]);
+
+let arr3 = ["a", "b"];
+
+arr3.push(function() {
+  console.log( this );
+});
+arr3[2]();
+// splice 
+arr.splice(3,0,5,6,7);
+console.log(arr);
+arr.splice(3,5);
+console.log(arr);
+// slice 
+console.log(arr.slice(1,4));
+// concatenate
+console.log(arr.concat([1,2,3,4]));
+// for each 
+let str ='';
+['a','b'].forEach((item,index,array)=>{
+    str = str+item ;
+});
+console.log(str);
+// searching --> indexOf
+console.log(arr.indexOf(34));
+//includes
+console.log(arr.includes(12))
+//find
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+
+let user = users.find(item => item.id == 1);
+
+console.log(user.name); // John
+// find index
+let users2 = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"},
+  {id: 4, name: "John"}
+];
+
+// Find the index of the first John
+console.log(users2.findIndex(user => user.name == 'John')); // 0
+
+// Find the index of the last John
+console.log(users2.findLastIndex(user => user.name == 'John')); // 3
+
+// filter 
+let someUsers = users2.filter(item => item.id < 3);
+console.log(someUsers.length)
+
+//Map : It calls the function for each element of the array and returns the array of results.
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(item => item.length);
+console.log(lengths); // 5,7,6
+
+console.log(lengths.sort());
+console.log(lengths.reverse());
+
+//split
+let bh = "Bilbo ,Gandalf ,Nazgul";
+let new_bh = bh.split(" ,");
+console.log(new_bh)
+
+//join
+bh = new_bh.join(" ");
+console.log(bh)
+
+// reduce 
+let arr2 = [1, 2, 3, 4, 5];
+let result = arr2.reduce((sum, current) => sum + current);
+
+console.log(result); // 15
+
+// Array.isArray
+console.log(Array.isArray({})); // false
+console.log(Array.isArray([])); // true
+
+
+</script>
+</html>
