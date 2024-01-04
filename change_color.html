@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Initial rectangle styling */
+    .shape {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
+      transition: all 0.5s; /* Add transition for smooth effect */
+    }
+
+    /* Hover effect to transform into a circle */
+    .shape:hover {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="colorInput">Enter background color: </label>
+  <input type="text" id="colorInput">
+  <button onclick="changeBackgroundColor()">Apply Color</button>
+  <script>
+    function changeBackgroundColor() {
+      // Get the selected color from the input element
+      const colorInput = document.getElementById('colorInput');
+      const selectedColor = colorInput.value;
+
+      // Apply the selected color to the background of the web page
+      document.body.style.backgroundColor = selectedColor;
+    }
+
+  
+  </script>
+
+</body>
+</html>

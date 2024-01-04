@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    tr{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+
+    }
+    td{
+        margin: 1px;
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+    }
+    table{
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+
+    }
+    /*.bordered{
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+       
+    }*/
+</style>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id = "name" placeholder="Enter your Name">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td >
+                    <label for="city">city:</label>
+                </td>
+                <td>
+                    <input type="text" id = "city" placeholder="Enter your City">
+                </td>
+
+            </tr>
+            <tr>
+                <td >
+                    <label for="state">State:</label>
+                </td>
+                <td >
+                    <input type="text" id = "state" placeholder="Enter your State">
+                </td>
+
+            </tr>
+            <tr>
+                <td >
+                    <label for="pn">Pin-Code:</label>
+                </td>
+                <td >
+                    <input type="number" id = "pin" placeholder="Enter Pin-Code">
+                </td>
+
+            </tr>
+            <tr>
+                <td >
+                    <label for="magazine">Select magazine:</label>
+                </td>
+                <td >
+                        <input type="checkbox" name="" id="">Magazine A <br>
+                        <input type="checkbox" name="" id="">Magazine B <br>
+                        <input type="checkbox" name="" id="">Magazine C <br>
+                        <input type="checkbox" name="" id="">Magazine D <br>
+                        <input type="checkbox" name="" id="">Magazine E
+                </td>
+
+            </tr>
+            <tr>
+                <td >
+                    <label for="subscription">Subscription Period:</label>
+                </td>
+                <td >
+                    <div>
+                         <input type="radio" name="1" id="1">1 Year
+                    </div>
+                    <div>
+                        <input type="radio" name="2" id="2">2 Year
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    
+                </td>
+                <td >
+                    <button type="submit">Submit</button>
+                </td>
+
+            </tr>
+     </table>
+    </div>
+</body>
+</html>

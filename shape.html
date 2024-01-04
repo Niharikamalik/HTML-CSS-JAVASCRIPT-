@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Initial rectangle styling */
+    .shape {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
+      transition: all 0.5s; /* Add transition for smooth effect */
+    }
+
+    /* Hover effect to transform into a circle */
+    .shape:hover {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="shape" id="myShape"></div>
+
+  <script>
+    // Add JavaScript to handle the hover event
+    document.getElementById('myShape').addEventListener('mouseover', function() {
+      // Change the class to trigger the hover effect
+      this.classList.add('hovered');
+    });
+
+    document.getElementById('myShape').addEventListener('mouseout', function() {
+      // Remove the class to revert to the original state
+      this.classList.remove('hovered');
+    });
+  </script>
+
+</body>
+</html>
