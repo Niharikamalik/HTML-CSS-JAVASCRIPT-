@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.6);
+    color: aliceblue;
+    padding: 0.5em;
+}
+nav{
+    background-image: url(./image/1.png);
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    font-size: 1.4rem;
+    padding: 1em;
+    margin: 1rem;
+    stop-opacity:unset ;
+
+}
+a:hover{
+    background-color: rgb(8, 9, 9);
+    color: black;
+}
+a:active{
+    background-color: rgb(25, 135, 232);
+    color: black;
+}
+header{
+   padding: 2em;
+   background-image:url(./image/1.png);
+
+}
+#demo{
+    background-color: black;
+    opacity: 0.2;
+}
