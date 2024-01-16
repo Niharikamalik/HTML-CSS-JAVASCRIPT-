@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="event.css">
+<body onload="Mymsg()">
+    <p>oninput</p>
+    <input type="text" id="color" placeholder="Enter color" oninput="uppercase()">  
+
+    <p>onchange</p>
+    <input type="text" id="onchng" placeholder="onchange" onchange="uppercase2()">
+
+    <p>onfocus</p>
+    <input type="text" onfocus="myFunction(this)">
+
+    <p> onMouseOver or onMouseOUt</p>
+    <div onmouseover="MouOver(this)" onmouseout="MouOut(this)" class="container"></div>
+
+    <p> onmouseup or onmousedown</p>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)" class="container">click me</div>
+
+    <p> click here to get date</p>
+    <button id="mybtn">Try it </button>
+    <p id="demo"></p>
+ <script src="event.js"></script>
+</body>
+</html>

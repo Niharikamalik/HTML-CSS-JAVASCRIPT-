@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>setFullYear(mention_year) function define year (month and day is by default) </p>
+    <p id="demo"></p>
+    <p>setFullYear(year,month,day) function define year (month and day is by default) </p>
+    <p id="SFY"></p>
+    <script>
+        const d = new Date();
+        const a = new Date();
+        d.setFullYear(2023);
+        a.setFullYear(2020,1,4)
+        document.getElementById("demo").innerHTML = d;
+        document.getElementById("SFY").innerHTML = a;
+    </script>
+</body>
+</html>
